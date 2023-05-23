@@ -1,21 +1,21 @@
-if SHIELD_DAC_MAN_5X6_LEFT
+if SHIELD_DAC_MAN_6X6_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Dac-Man-5x6-L"
+    default "Dac-Man-6x6"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_DAC_MAN_5X6_RIGHT
+if SHIELD_DAC_MAN_6X6_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Dac-Man-5x6-R"
 
 endif
 
-if SHIELD_DAC_MAN_5X6_LEFT || SHIELD_DAC_MAN_5X6_RIGHT
+if SHIELD_DAC_MAN_6X6_LEFT || SHIELD_DAC_MAN_6X6_RIGHT
 
 config ZMK_SPLIT
     default y
