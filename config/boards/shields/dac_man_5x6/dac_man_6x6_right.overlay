@@ -1,4 +1,4 @@
-#include "dac_man_5x6.dtsi"
+#include "dac_man_6x6.dtsi"
 
 &default_transform {
     col-offset = <6>;
