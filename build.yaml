@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano_v2 nice_view_adapter  nice_view
     shield: dac_man_6x6_left
-  - board: nice_nano_v2
+  - board: nice_nano_v2 nice_view_adapter  nice_view
     shield: dac_man_6x6_right
-  - board: nice_nano_v2
-    shield: settings_reset
+#   - board: nice_nano_v2
+#     shield: settings_reset
